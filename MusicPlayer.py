@@ -1,8 +1,8 @@
-import os # used for removing the path name while showing in status bar.
+import os # used for removing the pathname while showing in status bar.
 import time
 import tkinter.messagebox
 from tkinter import *
-from tkinter import filedialog   # able search the files
+from tkinter import filedialog   # able to search the files
 import threading
 from ttkthemes import themed_tk as tk
 from tkinter import ttk          #ttk= theme tkinter.
@@ -56,10 +56,9 @@ def Developer():
 
 
 def Features():
-    tkinter.messagebox.showinfo("Features","You can add or remove the song,"
-    " volume of song can increse or decrese. Also you can"
-    " pause or stop the song, name of song currently playing  and time length"
-    " are also visiable. ")
+    tkinter.messagebox.showinfo("Features","You can either add or remove the song,"
+    " volume of song can increase or decrease. Also you can"
+    " pause or stop the song. ")
 
 
 
